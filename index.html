@@ -8,7 +8,22 @@
 </head>
 
 <body>
+    <div class="message"></div>
     <div class="box">HI</div>
+    <script>
+        let messageBox = document.querySelector(".message")
+        const clickHandler = (first) => {
+            if (messageBox.textContent !== "") {
+                return
+            }
+            messageBox.textContent = "Hello"
+            setTimeout(() => {
+                messageBox.textContent = ""
+            }, 2000);
+        }
+
+        document.querySelector(".box").addEventListener("click", clickHandler)
+    </script>
 </body>
 
 </html>
