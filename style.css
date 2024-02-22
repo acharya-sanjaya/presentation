@@ -8,3 +8,21 @@ body {
     background-color: #123;
     color: #fff;
 }
+
+.box {
+    background-color: red;
+    border: white;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 100px;
+}
